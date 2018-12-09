@@ -6,4 +6,9 @@ describe "Routing", :type => :request do
         get "/users/sign_up"
         expect(response).to_not have_http_status(:success)
     end
+
+    it 'can login /users/sign_in' do
+        post "/users/sign_in", params: {user: {email: ENV['EMAIL'], password: ENV['PASSWORD']}}
+        expect(response).to_not have_http_status(:found)
+    end
 end
