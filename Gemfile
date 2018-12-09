@@ -50,6 +50,8 @@ group :development do
   gem 'brakeman'
   # Using bundle-audit
   gem 'bundle-audit'
+  # Using License Finder
+  gem 'license_finder'
 end
 
 group :test do
