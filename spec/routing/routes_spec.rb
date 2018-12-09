@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe "Routing", :type => :request do
+    let(:user) {FactoryBot.create(:user)}
 
     it 'can not view users/sign_up' do
         get "/users/sign_up"
