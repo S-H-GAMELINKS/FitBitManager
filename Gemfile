@@ -61,6 +61,8 @@ group :development do
   gem 'pry-rails'
   # Using Sextant
   gem 'sextant'
+  # Using rspec
+  gem 'rspec-rails'
 end
 
 group :test do
