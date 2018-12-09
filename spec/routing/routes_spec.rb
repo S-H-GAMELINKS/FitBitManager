@@ -4,8 +4,7 @@ describe "Routing", :type => :request do
     let(:user) {FactoryBot.create(:user)}
 
     it 'can not view users/sign_up' do
-        get "/users/sign_up"
-        expect(response).to_not have_http_status(:success)
+        expect(:get => "/users/sign_up").to_not have_http_status(:success)
     end
 
     it 'can login /users/sign_in' do
