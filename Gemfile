@@ -35,6 +35,9 @@ gem 'devise'
 # Using dotenv-rails
 gem 'dotenv-rails'
 
+# Using FitBit API
+gem 'fitbit_api'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
