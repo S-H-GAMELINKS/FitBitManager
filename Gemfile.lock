@@ -128,6 +128,11 @@ GEM
     nokogiri (1.8.5-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     parslet (1.8.2)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-rails (0.3.8)
+      pry (>= 0.10.4)
     public_suffix (3.0.3)
     puma (3.12.0)
     rack (2.0.6)
@@ -238,6 +243,7 @@ DEPENDENCIES
   duktape
   jbuilder (~> 2.5)
   license_finder
+  pry-rails
   puma (~> 3.11)
   rails (~> 5.2.2)
   sass-rails (~> 5.0)
