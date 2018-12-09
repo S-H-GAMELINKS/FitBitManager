@@ -54,6 +54,13 @@ group :development do
   gem 'license_finder'
   # Using bullet
   gem 'bullet'
+  # Using Better Errors
+  gem "better_errors"
+  gem "binding_of_caller"
+  # Using pry-rails
+  gem 'pry-rails'
+  # Using Sextant
+  gem 'sextant'
 end
 
 group :test do
